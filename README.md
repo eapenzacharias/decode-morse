@@ -14,8 +14,8 @@ Clone this repo and enter the directory.
 
 ```
 shell
-git clone https://github.com/piero-vic/morse-code-decoder.git
-cd morse-code-decoder
+git@github.com:eapenzacharias/decode-morse.git
+cd decode-morse
 ```
 
 Run the Interactive Ruby Shell.
