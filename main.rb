@@ -30,19 +30,19 @@
 # Decode character
 
 def char_decode(str)
-  @to_english[str]
+  a = @to_english[str]
 end
 
 # Decode words
 
 def word_decode(str)
-  str.split.map { |i| char_decode(i) }.join
+  a = str.split.map { |i| char_decode(i) }
 end
 
 # Decode phrase
 
 def decode(str)
-  str.split('   ').map { |i| word_decode(i) }.join(' ')
+  a = str.split('   ').map { |i| word_decode(i) }.join(' ')
 end
 
 puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
